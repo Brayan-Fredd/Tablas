@@ -1,0 +1,30 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: 50px;
+  }
+  h1{
+    text-align: center;
+  }
+  td, th {
+    border: 0.5px solid #dddddd;
+    text-align: left;
+    padding: 10px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #d2a9a9;
+  }
+
+  td, th, a{
+
+    color: black;
+  }
+  td, th, a, img{
+    vertical-align: middle; 
+    margin-right: 8px;
+  }
+  .holi th{
+    text-align: center;
+  }
